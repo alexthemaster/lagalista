@@ -13,7 +13,6 @@
  - port 8080 free
  - a Deezer application that follows [this structure](./assets/create_app.png) ([can create one here](https://developers.deezer.com/myapps))
  - a Spotify application ([can create one here](https://developer.spotify.com/dashboard/applications))
- - will list api keys and whatever else will be needed here
 
  ## How do you use it?
  To run `Lagalista` you simply have to:
