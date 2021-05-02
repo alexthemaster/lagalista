@@ -181,8 +181,9 @@ class Lagalista {
             console.log(`Found ${tracks.length} tracks in the Spotify playlist called ${name}, adding them to Deezer!`);
 
             await this.addToDeezer(deezerID, tracks);
-            process.exit(0);
         }
+
+        process.exit(0);
     };
 
     async actions() {
