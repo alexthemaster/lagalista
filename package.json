@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "node-fetch": "^2.6.1",
+    "p-queue": "^7.1.0",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
