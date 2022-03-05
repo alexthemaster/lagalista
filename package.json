@@ -3,9 +3,9 @@
     "start": "node src/index.mjs"
   },
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "inquirer": "^8.2.0",
-    "node-fetch": "^3.2.0",
+    "node-fetch": "^3.2.1",
     "p-queue": "^7.2.0",
     "spotify-web-api-node": "^5.0.2"
   }
