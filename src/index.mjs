@@ -111,7 +111,7 @@ class Lagalista {
                 const { data, next } = await fetch(toFetch).then(res => res.json()).catch(console.error);
                 if (!next) loop = false;
                 toFetch = next;
-                const tracks = data.map(track => track.id);
+                const tracks = data ? data.map(track => track.id) : [];
                 currentTracks.push(...tracks);
             })
         }
